@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+    <h1>Sign In</h1>
+    </header>
+
+    <main>
+
+        <section class="form-container">
+            <form id="signinForm">
+                <label>Email</label>
+                <input
+                 type="email"
+                 id="signinEmail">
+
+                 <small id="signinEmailError">
+                </small>
+
+                <label>Password</label>
+
+                <input
+                 type="password"
+                 id="signinPassword">
+
+                 <button
+                  type="button"
+                  onclick=
+                 "togglePassword('signinPassword')">
+                  Show
+
+                 </button>
+
+                <small
+                 id="signinPasswordError">
+                </small>
+
+
+               <button type="submit">
+                Sign In
+               </button>
+
+            </form>
+
+            <p>
+                Don't have an account?
+
+               <a href="SignUp.html">
+                Sign Up
+               </a>
+           </p>
+
+        </section>
+
+    </main>
+
+
+
+
+
+     <script src="index.js"></script>
+
+ 
+</body>
+</html>
